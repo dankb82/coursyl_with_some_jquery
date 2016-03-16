@@ -11,9 +11,18 @@
 // about supported directives.
 //
 //= require jquery
+//= require datetimepicker
 //= require jquery_ujs
 //= require d3
 //= require_tree .
+
+
+
+function dateTime() {
+$('.datetimepicker').datetimepicker();
+}
+
+$(dateTime);
 
 
 function disableSubmitButton() {
